@@ -15,6 +15,7 @@ class World {
     lastLitter = false;
     alreadyThrow = false;
     intervalIds = [];
+    animationFrameId;
 
 
     constructor(canvas, keyboard) {
@@ -50,9 +51,15 @@ class World {
         this.addObjectsToMap(this.level.bottles);
         this.ctx.translate(-this.cameraX, 0);
         let self = this;
-        requestAnimationFrame(() => {
+        this.animationFrameId = requestAnimationFrame(() => {
             self.draw();
         });
+    }
+
+
+    // Stops the draw loop. Without this, every restart would leave the old world drawing in the background.
+    stopDrawing() {
+        cancelAnimationFrame(this.animationFrameId);
     }
 
 

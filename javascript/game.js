@@ -24,6 +24,9 @@ function startGame() {
         showMobileBtns();
         showFullscreenBtn();
         canvas = document.getElementById('canvas');
+        if (world) {
+            world.stopDrawing();
+        }
         world = new World(canvas, keyboard);
         closeLoadingScreen();
         playBackgroundMusic();
