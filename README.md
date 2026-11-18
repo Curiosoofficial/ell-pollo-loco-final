@@ -2,7 +2,7 @@
 
 > **Bootcamp-Projekt (Developer Akademie)**
 
-**Live-Demo:** _[LIVE-LINK FOLGT]_
+**Live-Demo:** https://curiosoofficial.github.io/ell-pollo-loco-final/
 
 ![Spielszene: Pepe läuft durch die Wüste, oben die Statusleisten für Leben, Münzen, Flaschen und den Endboss](docs/screenshot-gameplay.jpg)
 
