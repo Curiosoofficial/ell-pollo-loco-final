@@ -1,6 +1,6 @@
 # El Pollo Loco – 2D-Jump-and-Run
 
-> **Bootcamp-Projekt (Developer Akademie)**
+> **Bootcamp-Projekt**
 
 **Live-Demo:** https://curiosoofficial.github.io/ell-pollo-loco-final/
 
@@ -25,7 +25,7 @@ Auf dem Smartphone gibt es Touch-Buttons im Querformat. Ton und Vollbild lassen 
 - Spiellogik in `setInterval`-Schleifen: Schwerkraft, Sprite-Animationen, Kollisionsprüfung
 - Kollisionserkennung mit Bounding Boxes und Offsets pro Objekt
 - Sounds über die `Audio`-API
-- Grafiken aus dem Kursmaterial der Developer Akademie
+- Grafiken aus dem Kursmaterial
 
 ## Überarbeitung 2026
 
